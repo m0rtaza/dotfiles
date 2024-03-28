@@ -1,3 +1,6 @@
+tap "homebrew/cask"
+
+
 brew "vim"
 brew "git"
 brew "gh"
