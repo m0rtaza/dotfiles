@@ -9,6 +9,10 @@ antigen theme robbyrussell
 
 antigen apply
 
+# os
+
+defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false  # enable key repeat for some apps
+
 # nvm
 
 export NVM_DIR="$HOME/.nvm"
